@@ -3,7 +3,7 @@
 	{
         "name": "Coastal Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Fishing Boats]","[+1 Faith] from every [Atoll]"]
+        "uniques": ["[+1 Faith] from every [Fishing Boats]", "[+1 Faith] from every [Atoll]"]
     },
     {
         "name": "God of the Depths",
@@ -13,13 +13,18 @@
     {
         "name": "Lady of the Reeds and Marshes",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith, +1 Production] from every [Oasis]","[+1 Faith, +1 Production] from every [Marsh]","[+1 Faith, +1 Production] from every [Flood plains]"]
+        "uniques": ["[+1 Faith, +1 Production] from every [Oasis]", "[+1 Faith, +1 Production] from every [Marsh]", "[+1 Faith, +1 Production] from every [Flood plains]"]
     },
     {
         "name": "Stories from the Pole",
         "type": "Pantheon",
         "uniques": ["[+1 Faith] from every [Snow]"]
     },
+	{
+		"name": "Sun God",
+		"type": "Pantheon",
+		"uniques": ["[+1 Food, +1 Production] from every [Bananas]", "[+1 Food, +1 Production] from every [Citrus]", "[+1 Food, +1 Production] from every [Wheat]", "[+1 Food, +1 Production] from every [Rice]"]
+	},
     //Follower
     {
         "name": "Sacred Mountains",
@@ -52,24 +57,24 @@
         "uniques": ["May buy [Amphitheater] buildings with [Faith] for [2] times their normal Production cost","May buy [Opera House] buildings with [Faith] for [2] times their normal Production cost","May buy [Museum] buildings with [Faith] for [2] times their normal Production cost","May buy [Broadcast Tower] buildings with [Faith] for [2] times their normal Production cost"]
     },
     {
-        "name": "Creativity",
+        "name": "Festival Processions",
         "type": "Follower",
-        "uniques": ["[+1]% [Culture] from every follower, up to [6]%","[+1 Faith] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+1]% [Culture] from every follower, up to [15]%"]
     },
-        {
-        "name": "Thrift",
+    {
+        "name": "Prosperity Doctrine",
         "type": "Follower",
-        "uniques": ["[+1]% [Gold] from every follower, up to [15]%"]
+        "uniques": ["[+1]% [Gold] from every follower, up to [20]%"]
     },
-        {
-        "name": "Intelligence",
+    {
+        "name": "Scholarly Tradition",
         "type": "Follower",
-        "uniques": ["[+1]% [Science] from every follower, up to [10]%"]
+        "uniques": ["[+1]% [Science] from every follower, up to [15]%"]
     },
-        {
+    {
         "name": "Holy Fleets",
         "type": "Follower",
-        "uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
+        "uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost"]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
     {
@@ -88,19 +93,14 @@
         "uniques": ["When spreading religion to a city, gain [8] times the amount of followers of other religions as [Culture]"]
     },
     {
-        "name": "Tithe",
-        "type": "Founder",
-        "uniques": ["[+1 Gold] from every [4] global followers [in foreign cities]"]
-    },
-    {
         "name": "Tregtias",
         "type": "Founder",
-        "uniques": ["May buy [The Great Tregtia] buildings with [Faith] [in all cities]","May buy [Tregtia] buildings with [Faith] [in all cities]"]
+        "uniques": ["May buy [The Great Tregtia] buildings with [Faith] [in all cities]", "May buy [Tregtia] buildings with [Faith] [in all cities]"]
     },
-        {
+    {
         "name": "World Konesan",
         "type": "Founder",
-        "uniques": ["[+1 Science] from every [5] global followers [in foreign cities]"]
+        "uniques": ["[+2 Science] for each global city following this religion"]
     },
     
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
@@ -116,13 +116,13 @@
         "uniques": ["[+15]% [Faith] [in all cities]"]
     },
     {
-	    "name": "Expansion to the Gods",
+	    "name": "Monumentality",
         "type": "Enhancer",
-        "uniques": ["May buy [Worker] units with [Faith] for [2] times their normal Production cost","May buy [Settler] units with [Faith] for [2] times their normal Production cost"]
+        "uniques": ["[+1 Movement] <for [Civilian] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost", "May buy [Settler] units with [Faith] for [2] times their normal Production cost"]
     },
     {
 	    "name": "Religious Education",
         "type": "Enhancer",
-        "uniques": ["[Missionary] units built [in all cities] can [Spread Religion] [1] extra times","[Great Prophet] units built [in all cities] can [Spread Religion] [1] extra times"]
+        "uniques": ["[Missionary] units built [in all cities] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in all cities] can [Spread Religion] [1] extra times"]
     }
 ]
