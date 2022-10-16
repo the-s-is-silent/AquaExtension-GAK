@@ -86,8 +86,7 @@
 		"replaces": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]","Will not be displayed in Civilopedia","Free [Great Engineer] appears","Unsellable","Destroyed when the city is captured"],
+		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]", "Will not be displayed in Civilopedia", "Free [Great Engineer] appears", "Unsellable", "Destroyed when the city is captured"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -99,21 +98,21 @@
 		"requiredTech": "Industrialization"
 	},
      //Wonders
-     {
-        "name": "Borobudur",
-        "faith": 5,
-        "isWonder": true,
-        "uniques": ["[3] free [Missionary] units appear",
-				"Can only be built [in holy cities]",
-				"Hidden when religion is disabled"],
-        "requiredTech": "Theology",
-        "quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' - Gautama Buddha"
+	{
+		"name": "Borobudur",
+		"faith": 5,
+		"isWonder": true,
+		"uniques": ["[3] free [Missionary] units appear", "Can only be built [in holy cities]", "Hidden when religion is disabled"],
+		"requiredTech": "Theology",
+		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' - Gautama Buddha"
 	},
 	{
-        "name": "Grand Master’s Chapel",
-        "maintenance": 2,
-        "isWonder": true,
-        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>","May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>","Hidden when religion is disabled"],
+		"name": "Grand Master’s Chapel",
+		"faith": 5,
+		"maintenance": 2,
+		"cost": 290,
+        "isNationalWonder": true,
+        "uniques": ["Can only be built [in capital]", "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost", "Hidden when religion is disabled"],
         "requiredTech": "Theology",
 		"quote": "'The beauty of the Grand Master's Chapel lies in its gold carvings and magnificent size, which makes God's faithful followers relax for a while' - The Books of Clausius"
 	},
@@ -126,7 +125,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured","[+2 Gold] from [Luxury resource] tiles [in this city]"]
+		"uniques": ["Destroyed when the city is captured", "[+2 Gold] from [Luxury resource] tiles [in this city]"]
 	},
 	{
 	    "name": "Elite School",
@@ -137,7 +136,7 @@
 		"requiredBuilding": "University",
 		"maintenance": 4,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] from every specialist [in this city]","[+1 Science] from [Great Improvement] tiles [in this city] <with [1] to [6] neighboring [Coast] tiles>","[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] from every specialist [in this city]", "[+1 Science] from [Great Improvement] tiles [in this city] <with [1] to [6] neighboring [Coast] tiles>", "[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -179,8 +178,8 @@
 		"cost": 120,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]","[+2 Faith] from [Water resource] tiles [in this city]","[+5]% growth [in this city]",
-			"Connects trade routes over water","Must be next to [Coast]"],
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", "[+2 Faith] from [Water resource] tiles [in this city]", "[+5]% growth [in this city]",
+			"Connects trade routes over water", "Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
 	{
@@ -251,7 +250,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+1 Culture] from [Jungle] tiles [in this city]","[+5]% [Culture] [in this city]"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+1 Culture] from [Jungle] tiles [in this city]", "[+5]% [Culture] [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -307,7 +306,7 @@
         "name": "The Great Tregtia",
         "cost": 0,
         "faith": 2,
-        "uniques": ["Unbuildable","Destroyed when the city is captured","Hidden when religion is disabled","Provides [2] [Religious Objects]","Provides [2] [Cosmetics]","Provides [2] [Souvenir]","Limited to [1] per Civilization","Only available <in cities without a [Tregtia]>"],
+        "uniques": ["Unbuildable", "Destroyed when the city is captured", "Hidden when religion is disabled", "Provides [2] [Religious Objects]", "Provides [2] [Cosmetics]", "Provides [2] [Souvenir]", "Limited to [1] per Civilization", "Only available <in cities without a [Tregtia]>"],
     },
     {
         "name": "Tregtia",
@@ -315,7 +314,7 @@
         "faith": 2,
         "gold": 3,
         "happiness": 1,
-        "uniques": ["Unbuildable","Hidden when religion is disabled","Only available <in cities without a [The Great Tregtia]>"],
+        "uniques": ["Unbuildable", "Hidden when religion is disabled", "Only available <in cities without a [The Great Tregtia]>"],
     },
     //Improvement
     {
@@ -350,7 +349,7 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Hardwood] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]", "[+1 Production] from [Hardwood] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -371,7 +370,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
 		"science": 2,
-		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"],
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]", "All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"],
         "requiredTech": "Bronze Working"
     }
 ]
