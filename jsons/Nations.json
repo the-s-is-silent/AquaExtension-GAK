@@ -405,7 +405,7 @@
 	      "name": "Soviet Union",
 	      "leaderName": "Joseph Stalin",
 	      "startBias": ["Tundra"],
-	      "adjective": ["Russian"],
+	      "adjective": ["Soviet"],
 	      "preferredVictoryType": "Domination",
 	      "favoredReligion": "Atheism",
 	
@@ -418,14 +418,14 @@
 		"introduction": "I do not have time to talk with capitalist monsters, but if you are a friend of the workers, then you can be my friend as well.",
 		
 		"neutralHello": "Hello.",
-		"neutralLetsHearIt": ["Do not make me wait then.","I am listening.","Go ahead."],
+		"neutralLetsHearIt": ["Do not make me wait then.", "I am listening.", "Go ahead."],
 		"neutralNo": ["No.","Certainly not.","That is unacceptable."],
-		"neutralYes": ["Good.","Very well.","This will do."],
+		"neutralYes": ["Good.", "Very well.", "This will do."],
 		
 		"hateHello": "What do you want!?",
-		"hateLetsHearIt": ["Spit it out!","What?","Out with it!"],
-		"hateNo": ["Never!","Excuse me?","You are joking right?"],
-		"hateYes": ["I cannot refuse.","Good enough.","Very well then."],
+		"hateLetsHearIt": ["Spit it out!", "What?", "Out with it!"],
+		"hateNo": ["Never!","Excuse me?", "You are joking right?"],
+		"hateYes": ["I cannot refuse.", "Good enough.", "Very well then."],
 		
 		"tradeRequest": "I suggest you accept this offer for I do not trade with outsiders that often.",
 	
