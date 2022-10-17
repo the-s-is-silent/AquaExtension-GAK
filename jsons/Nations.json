@@ -70,8 +70,28 @@
 	      "preferredVictoryType": "Domination",
 	      "favoredReligion": "Christianity",
 	
+		"startIntroPart1": "Heil mein Führer, most brilliant leader of the Reich and the German people. You are the successor to the Third Reich; the empire of the illustrious German race. Germany was once a great nation, but after the humiliating defeat of the First World War, Germany has turned into nothing but a pushover to the Entente within the west, and the Communists from the East, inflation is the highest in history, and unrest and riots are everywhere. But through you, the Fatherland have risen from the ashes of our past, and made Germany a great power again in a span of a decade. Political unrest has died down, economy has boomed to competence, the people is satisfied within your rule.",
+		"startIntroPart2": "O' Great leader of the Reich, the time has come, our neighbors are envious and the road to the 'Endsieg' awaits, history is now to be decided. Can you bring the greatness that the people waited for so long? can you build an everlasting and powerful Reich? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "You are nothing but a nuisance to this world! You must be destroyed!",
+		"attacked": "Foolishness! My Wehrmacht is invincible! Do you really think your 'army' can overtake the Reich?",
+		"defeated": "The last bastion of the Reich has fallen to your hands, well done. But if you think I will surrender to you, I would rather prefer to blow my brains out.",
+		"introduction": "Welcome, I am Adolf Hitler, Führer of the German People. Now, let us discuss regarding the lands that you have mistook to be yours.",
+		
+		"neutralHello": "Heil!",
+		"neutralLetsHearIt": ["Let us hear it then.","Pry tell then.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","Of course not!"],
+		"neutralYes": ["That is an excellent proposition.","Very well.","That may sound reasonable."],
+		
+		"hateHello": "Speak!",
+		"hateLetsHearIt": ["What now!?","Hurry up then!","Quickly!"],
+		"hateNo": ["No!","That is outrageous!","Never!"],
+		"hateYes": ["Fine!","Very well then.","This may work."],
+		
+		"tradeRequest": "I believe this deal can be proved to be beneficial for all of us.",
+		
 	      "uniqueName": "Blitzkrieg",
-	      "uniques": ["Upon capturing a city, receive [6] times its [Science] production as [Science] immediately","[{Land} {Melee}] units gain the [Blitzkrieg] promotion"],
+	      "uniques": ["Upon capturing a city, receive [6] times its [Science] production as [Science] immediately", "[{Military} {Land}] units gain the [Blitzkrieg] promotion"],
 	      "outerColor": [140,22,22],
 		  "innerColor": [0,0,0],
 	      "cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
@@ -152,7 +172,7 @@
       },
       {
 	      "name": "Italy2",
-	      "leaderName": "Mussolini",
+	      "leaderName": "Benito Mussolini",
 	      "adjective": ["Italian"],
 		  "startBias":["Forest"],
 	      "preferredVictoryType": "Domination",
@@ -389,8 +409,25 @@
 	      "preferredVictoryType": "Domination",
 	      "favoredReligion": "Atheism",
 	
-	      "defeated": "Is this the end?",
-	      "introduction": "Hell Yeah",
+		"startIntroPart1": "Salutations Comrade Stalin, Vozhd of the Soviet Union and the great successor of Lenin, the father of our country! It is no secret that the country was made by blood and sacrifice, such acts will forever be remembered within our great revolution of 1917, and to this day, you are still remembered to fight alongside Lenin as one of his generals and liberated our motherland from the imperialist Tsarist Russia. Although our early years as a nation were difficult, we have managed to persevere and by 1945, 23 years after our nation was founded, we were then considered as a global superpower, thanks to our collective efforts as a nation.",
+		"startIntroPart2": "Comrade! The time has come, the world must be liberated from such imperialistic ideals, the workers call your name. Can you build a utopia free from imperialism? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "The laborers have called, we must liberate the people from the capitalist pigs such as you!",
+		"attacked": "We do not like taking any foreign territory, but we shall never give up even a single grain of our lands!",
+		"defeated": "Imperilaist dog! You may have crushed the Soviet Union now, but you will never destroy the spirit of the revolution!",
+		"introduction": "I do not have time to talk with capitalist monsters, but if you are a friend of the workers, then you can be my friend as well.",
+		
+		"neutralHello": "Hello.",
+		"neutralLetsHearIt": ["Do not make me wait then.","I am listening.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","That is unacceptable."],
+		"neutralYes": ["Good.","Very well.","This will do."],
+		
+		"hateHello": "What do you want!?",
+		"hateLetsHearIt": ["Spit it out!","What?","Out with it!"],
+		"hateNo": ["Never!","Excuse me?","You are joking right?"],
+		"hateYes": ["I cannot refuse.","Good enough.","Very well then."],
+		
+		"tradeRequest": "I suggest you accept this offer for I do not trade with outsiders that often.",
 	
 	      "uniqueName": "The Glory of Communism",
 	      "uniques": ["Receive free [Great Engineer] everytime you built a [Gulag] [in annexed cities]. After discovering Industrialization, [Gulag] can be built [in capital]"],
