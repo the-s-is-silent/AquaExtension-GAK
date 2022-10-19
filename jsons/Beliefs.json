@@ -18,7 +18,7 @@
 	{
 		"name": "Stories from the Pole",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Snow]"]
+		"uniques": ["[+1 Faith] from [Snow] tiles <within [2] tiles of a [City center]>"]
 	},
 	{
 		"name": "Sun God",
