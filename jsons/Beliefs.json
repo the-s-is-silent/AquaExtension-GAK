@@ -18,20 +18,22 @@
 	{
 		"name": "Stories from the Pole",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from [Snow] tiles <within [2] tiles of a [City center]>"]
+		"uniques": ["[+1 Faith] from every [Snow]"]
 	},
 	{
 		"name": "Sun God",
 		"type": "Pantheon",
 		"uniques": ["[+1 Food, +1 Production] from every [Bananas]", "[+1 Food, +1 Production] from every [Citrus]", "[+1 Food, +1 Production] from every [Wheat]", "[+1 Food, +1 Production] from every [Rice]"]
 	},
-    //Follower
+
+///////////////////////////////////////// Follower beliefs //////////////////////////////////////////
+
 	{
 		"name": "Sacred Mountains",
 		"type": "Follower",
 		"uniques": ["[+1 Faith, +1 Food] from every [Mountain]"]
-    },
-    {
+	},
+	{
 		"name": "Lord of the Lies",
 		"type": "Follower",
 		"uniques": ["[+2 Faith, +1 Happiness, -1 Science] from every [Library]"]
@@ -76,7 +78,9 @@
 		"type": "Follower",
 		"uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost"]
 	},
+
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+	
 	{
 		"name": "Faithful Followers",
 		"type": "Founder",
@@ -102,8 +106,8 @@
 		"type": "Founder",
 		"uniques": ["[+2 Science] for each global city following this religion"]
 	},
-    
-    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+
+///////////////////////////////////////// Enhancer beliefs //////////////////////////////////////////
         
 	{
 		"name": "Blessed Dedications",
@@ -124,5 +128,5 @@
 		"name": "Religious Education",
 		"type": "Enhancer",
 		"uniques": ["[Missionary] units built [in all cities] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in all cities] can [Spread Religion] [1] extra times"]
-    }
+	}
 ]
