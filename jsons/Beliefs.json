@@ -1,4 +1,3 @@
-
 [
 	{
 		"name": "Coastal Folklore",
@@ -23,30 +22,25 @@
 	{
 		"name": "Sun God",
 		"type": "Pantheon",
-		"uniques": ["[+1 Food, +1 Production] from every [Bananas]", "[+1 Food, +1 Production] from every [Citrus]", "[+1 Food, +1 Production] from every [Wheat]", "[+1 Food, +1 Production] from every [Rice]"]
+		"uniques": ["[+1 Food, +1 Production] from every [Bananas]", "[+1 Food, +1 Production] from every [Citrus]", "[+1 Food, +1 Production] from every [Cocoa]", "[+1 Food, +1 Production] from every [Wheat]", "[+1 Food, +1 Production] from every [Rice]"]
 	},
 
 ///////////////////////////////////////// Follower beliefs //////////////////////////////////////////
 
 	{
-		"name": "Sacred Mountains",
+		"name": "Festival Processions",
 		"type": "Follower",
-		"uniques": ["[+1 Faith, +1 Food] from every [Mountain]"]
+		"uniques": ["[+1]% [Culture] from every follower, up to [15]%"]
 	},
 	{
-		"name": "Lord of the Lies",
+		"name": "Holy Fleets",
 		"type": "Follower",
-		"uniques": ["[+2 Faith, +1 Happiness, -1 Science] from every [Library]"]
+		"uniques": ["[+1 Faith] from every [Lighthouse]", "[+2 Faith] from every [Harbor]", "[+3 Faith] from every [Seaport]"]
 	},
 	{
-		"name": "Konesans",
+		"name": "Holy Warriors",
 		"type": "Follower",
-		"uniques": ["May buy [Konesan] buildings with [Faith] [in cities following this religion]"]
-	},
-	{
-		"name": "Meeting Houses",
-		"type": "Follower",
-		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
+		"uniques": ["[+1 Faith] from every [Barracks]", "[+2 Faith] from every [Armory]", "[+3 Faith] from every [Military Academy]"]
 	},
 	{
 		"name": "Jesuit Education",
@@ -54,14 +48,24 @@
 		"uniques": ["May buy [University] buildings with [Faith] for [2] times their normal Production cost", "May buy [Public School] buildings with [Faith] for [2] times their normal Production cost", "May buy [Research Lab] buildings with [Faith] for [2] times their normal Production cost"]
 	},
 	{
+		"name": "Konesans",
+		"type": "Follower",
+		"uniques": ["May buy [Konesan] buildings with [Faith] [in cities following this religion]"]
+	},
+	{
 		"name": "Liturgical Education",
 		"type": "Follower",
 		"uniques": ["May buy [Amphitheater] buildings with [Faith] for [2] times their normal Production cost", "May buy [Opera House] buildings with [Faith] for [2] times their normal Production cost", "May buy [Museum] buildings with [Faith] for [2] times their normal Production cost"]
 	},
 	{
-		"name": "Festival Processions",
+		"name": "Lord of the Lies",
 		"type": "Follower",
-		"uniques": ["[+1]% [Culture] from every follower, up to [15]%"]
+		"uniques": ["[+2 Faith, +1 Happiness, -1 Science] from every [Library]"]
+	},
+	{
+		"name": "Meeting Houses",
+		"type": "Follower",
+		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
 		"name": "Prosperity Doctrine",
@@ -69,18 +73,23 @@
 		"uniques": ["[+1]% [Gold] from every follower, up to [20]%"]
 	},
 	{
+		"name": "Sacred Mountains",
+		"type": "Follower",
+		"uniques": ["[+1 Faith, +1 Food] from every [Mountain]"]
+	},
+	{
 		"name": "Scholarly Tradition",
 		"type": "Follower",
 		"uniques": ["[+1]% [Science] from every follower, up to [15]%"]
 	},
-	{
-		"name": "Holy Fleets",
-		"type": "Follower",
-		"uniques": ["[+1 Faith] from every [Lighthouse]", "[+2 Faith] from every [Harbor]", "[+3 Faith] from every [Seaport]"]
-	},
 
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
-	
+
+	{
+		"name": "Cross-Cultural Dialogue",
+		"type": "Founder",
+		"uniques": ["When spreading religion to a city, gain [8] times the amount of followers of other religions as [Culture]"]
+	},
 	{
 		"name": "Faithful Followers",
 		"type": "Founder",
@@ -90,11 +99,6 @@
 		"name": "Prophets of War",
 		"type": "Founder",
 		"uniques": ["[Great Prophet] units gain the [Prophets of War] promotion"]
-	},
-	{
-		"name": "Cross-Cultural Dialogue",
-		"type": "Founder",
-		"uniques": ["When spreading religion to a city, gain [8] times the amount of followers of other religions as [Culture]"]
 	},
 	{
 		"name": "Tregtias",
