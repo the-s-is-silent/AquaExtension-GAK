@@ -1,88 +1,88 @@
 [
      //Civ Uniques
 	{
-        "name": "~limit",
-	    "gold": 2,
-        "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
-    },
-    {
-        "name": "Saffron", // Bostuosil luxury
-        "uniqueTo": "Bostuosil",
-        "isNationalWonder": true,
-        "cost": 1,
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Saffron]","Must be next to [Coast]"],
-    },
-    {
-        "name": "Cardamom", // Bostuosil luxury
-        "uniqueTo": "Bostuosil",
-        "isNationalWonder": true,
-        "cost": 1,
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cardamom]","Must be next to [Coast]"],
-    },
-    {
-         "name": "Indonesia [Tradition]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Tradition Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Liberty]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Liberty Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Honor]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Honor Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Piety]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Piety Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Patronage]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Patronage Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Commerce]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Commerce Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Rationalism]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Rationalism Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Freedom]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Freedom Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Autocracy]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Autocracy Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Order]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Order Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-	    "name": "Gulag",
-	    "uniqueTo": "Soviet Union",
+		"name": "~limit",
+		"gold": 2,
+		"cost": -1,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
+	},
+	{
+		"name": "Saffron", // Bostuosil luxury
+		"uniqueTo": "Bostuosil",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Saffron]","Must be next to [Coast]"],
+	},
+	{
+		"name": "Cardamom", // Bostuosil luxury
+		"uniqueTo": "Bostuosil",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cardamom]","Must be next to [Coast]"],
+	},
+	{
+		"name": "Indonesia [Tradition]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]","Only available <after adopting [Tradition Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Indonesia [Liberty]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]","Only available <after adopting [Liberty Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Indonesia [Honor]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]","Only available <after adopting [Honor Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Indonesia [Piety]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]", "Only available <after adopting [Piety Complete]>", "Empire enters golden age", "Unsellable", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Indonesia [Patronage]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]", "Only available <after adopting [Patronage Complete]>", "Empire enters golden age", "Unsellable", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Indonesia [Commerce]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]", "Only available <after adopting [Commerce Complete]>", "Empire enters golden age", "Unsellable", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Indonesia [Rationalism]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]","Only available <after adopting [Rationalism Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Indonesia [Freedom]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]", "Only available <after adopting [Freedom Complete]>", "Empire enters golden age", "Unsellable", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Indonesia [Autocracy]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]", "Only available <after adopting [Autocracy Complete]>", "Empire enters golden age", "Unsellable", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Indonesia [Order]",
+		"cost": 1,
+		"uniqueTo": "Indonesia2",
+		"uniques": ["Can only be built [in capital]", "Only available <after adopting [Order Complete]>", "Empire enters golden age", "Unsellable", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Gulag",
+		"uniqueTo": "Soviet Union",
 		"replaces": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
@@ -90,11 +90,11 @@
 		"requiredTech": "Mathematics"
 	},
 	{
-	    "name": "Free [Gulag]",
-	    "uniqueTo": "Soviet Union",
+		"name": "Free [Gulag]",
+		"uniqueTo": "Soviet Union",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Gain a free [Gulag] [in this city]","Can only be built [in capital]","Will not be displayed in Civilopedia","Free [Great Engineer] appears","Unsellable","Destroyed when the city is captured"],
+		"uniques": ["Gain a free [Gulag] [in this city]", "Can only be built [in capital]", "Will not be displayed in Civilopedia", "Free [Great Engineer] appears", "Unsellable", "Destroyed when the city is captured"],
 		"requiredTech": "Industrialization"
 	},
      //Wonders
@@ -107,14 +107,14 @@
 		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' - Gautama Buddha"
 	},
 	{
-		"name": "Grand Master’s Chapel",
+		"name": "Grand Master's Chapel",
 		"faith": 5,
 		"maintenance": 2,
 		"cost": 290,
-        "isNationalWonder": true,
-        "uniques": ["Can only be built [in capital]", "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost", "Hidden when religion is disabled"],
-        "requiredTech": "Theology",
-		"quote": "'The beauty of the Grand Master's Chapel lies in its gold carvings and magnificent size, which makes God's faithful followers relax for a while' - The Books of Clausius"
+		"isNationalWonder": true,
+		"uniques": ["Can only be built [in capital]", "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost", "Hidden when religion is disabled"],
+		"requiredTech": "Theology",
+		"quote": "'The beauty of the Grand Master's Chapel lies in its gold carvings and magnificent size, which makes God's faithful followers relax for a while.' - The Books of Clausius"
 	},
 	//Civ Unique Buildings
 	{
@@ -128,8 +128,8 @@
 		"uniques": ["Destroyed when the city is captured", "[+2 Gold] from [Luxury resource] tiles [in this city]"]
 	},
 	{
-	    "name": "Elite School",
-	    "uniqueTo": "Indonesia3",
+		"name": "Elite School",
+		"uniqueTo": "Indonesia3",
 		"replaces": "Public School",
 		"science": 3,
 		"specialistSlots": {"Scientist": 1},
@@ -140,16 +140,16 @@
 		"requiredTech": "Scientific Theory"
 	},
 	{
-        "name": "Floating Market",
-        "uniqueTo": "Malaysia",
-        "replaces": "Market",
-        "gold": 2,
-        "percentStatBonus": {"gold": 25},
-        "culture": 2,
-        "specialistSlots": {"Merchant": 2},
-        "hurryCostModifier": 25,
-        "requiredTech": "Currency"
-    },
+		"name": "Floating Market",
+		"uniqueTo": "Malaysia",
+		"replaces": "Market",
+		"gold": 2,
+		"percentStatBonus": {"gold": 25},
+		"culture": 2,
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 25,
+		"requiredTech": "Currency"
+	},
 	{
         "name": "Suguba",
         "replaces": "Market",
