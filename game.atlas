@@ -380,7 +380,7 @@ BuildingIcons/Floating Market
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Grand Master’s Chapel
+BuildingIcons/Grand Master's Chapel
   rotate: false
   xy: 100, 400
   size: 100, 100
